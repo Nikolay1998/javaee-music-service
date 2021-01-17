@@ -15,7 +15,8 @@
     <c:forEach items="${trackList}" var="track">
         <tr>
             <td>${track.name}</td>
-            <td>${track.autrhorId}</td>
+            <td>${track.autrhor.name}</td>
+            <td>${track.year}</td>
         </tr>
     </c:forEach>
 </body>
